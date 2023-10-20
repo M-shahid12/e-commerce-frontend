@@ -1,0 +1,47 @@
+.item {
+    width: 15rem;
+}
+
+.item p {
+    margin: 5px 0px;
+    display: flex;
+    width: 16rem;
+    margin-left: 66px;
+    font-size: 1rem;
+
+}
+
+.item-prices {
+    display: flex;
+    gap: 15px;
+    margin-left: 66px;
+
+
+}
+
+.item img {
+    width: 15rem;
+    margin-left: 4rem;
+    height: 22.5rem;
+}
+
+
+
+.item-prices-new {
+    color: #374151;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.item-prices-old {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
